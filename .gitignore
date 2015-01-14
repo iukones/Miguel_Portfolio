@@ -218,3 +218,4 @@ pip-log.txt
 # Sublime Text
 *.sublime.project
 *.sublime-workspace
+prepros.cfg
