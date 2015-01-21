@@ -446,14 +446,12 @@ html {
   font-size: 62.5%;
 }
 body {
-  width: 100%;
+  color: #262524;
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
-  font-style: normal;
-  font-weight: 300;
   font-size: 16;
   font-size: 1.6rem;
   line-height: 1.5em;
-  color: #262524;
+  width: 100%;
 }
 ::-moz-selection {
   background: #b3d4fc;
@@ -547,19 +545,23 @@ textarea {
 .logo {
   position: absolute;
   background: url("../img/m2.png") no-repeat 0 0;
-  width: 80px;
-  height: 174px;
+  width: 2.5em;
+  height: 5.5em;
   z-index: 2001;
-  top: -25px;
-  left: 20px;
+  top: -4%;
+  left: 0.6em;
   padding: 0;
-}
-.logo a {
+a
   display: block;
-  height: 80px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+.menu {
+  display: none;
+}
+.container {
+  padding: 1.4em;
 }
 @media only screen and (min-width: 49.37em) {
   body {
@@ -581,7 +583,7 @@ textarea {
 }
 a,
 a:visited {
-  text-decoration: underline;
+  text-decoration: none;
 }
 a[href]:after {
   content: " (" attr(href) ")";

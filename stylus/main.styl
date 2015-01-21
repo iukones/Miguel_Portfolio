@@ -12,14 +12,14 @@ html
   font-size 62.5%
 
 body
-  width 100%
-  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
-  font-style normal
-  font-weight 300
+  color #262524
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif
   font-size 16
   font-size 1.6rem
+  // font-style normal
+  // font-weight 300
   line-height 1.5em
-  color #262524
+  width 100%
 
 ::-moz-selection
   background #b3d4fc
@@ -110,22 +110,32 @@ textarea
   margin-bottom .75em
   background-color brown
 
+// .relative
+//   position relative
+
+// .button-menu
+//   position relative
+
 .logo
   position absolute
   background url(../img/m2.png) no-repeat 0 0
-  width 80px
-  height 174px
+  width 2.5em
+  height 5.5em
   z-index 2001
-  top -25px
-  left 20px
+  top -4%
+  left .6em
   padding 0
-
-.logo a
+  a
   display block
-  height 80px
   text-indent 100%
   white-space nowrap
   overflow hidden
+
+.menu
+  display none
+
+.container
+  padding 1.4em
 
 
 
@@ -156,7 +166,7 @@ textarea
 
 
 a, a:visited
-  text-decoration underline
+  text-decoration none
 
 a[href]:after
   content " (" attr(href) ")"
