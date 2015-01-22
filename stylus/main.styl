@@ -1,5 +1,6 @@
 @import "normalize.styl"
 @import "fonts.styl"
+@import "nib"
 
 html,
 button,
@@ -105,34 +106,45 @@ textarea
 .clearfix
   *zoom 1
 
-
 .header
-  margin-bottom .75em
   background-color brown
+  padding 40px 0
+  position relative
+  &-logo
+    position: absolute;
+    width: 2.5em;
+    height: 5.5em;
+    z-index: 2001;
+    top: -37px;
+    left: 0.6em;
+    padding: 0;
+  &-img
+    background: url("../img/m2.png") no-repeat 0 0;
+    /* max-width: 100%; */
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    /* width: auto; */
+    /* height: auto; */
+    width: 2.5em;
+    height: 5.5em;
+    position: absolute;
+    top: 15px;
+  &-button-menu
+    width 50px
+    background yellow
+    position absolute
+    right 21px
+    top 15px
+    opacity 0.7
 
-// .relative
-//   position relative
-
-// .button-menu
-//   position relative
-
-.logo
-  position absolute
-  background url(../img/m2.png) no-repeat 0 0
-  width 2.5em
-  height 5.5em
-  z-index 2001
-  top -4%
-  left .6em
-  padding 0
-  a
-  display block
-  text-indent 100%
-  white-space nowrap
-  overflow hidden
-
-.menu
+.MainMenu
   display none
+  width 200px
+  position absolute
+  right -200px
+  top 0
 
 .container
   padding 1.4em
