@@ -1,0 +1,146 @@
+@import "normalize.styl"
+@import "fonts.styl"
+@import "nib"
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body
+  background #b4bad2
+  color #fffce1
+  font-weight 400
+  font-size 62.5%
+  font-family 'Raleway', Arial, sans-serif
+
+a
+  color #4e4a46
+  text-decoration none
+  outline none
+
+.container,
+.content-wrap
+  overflow hidden
+  width 100%
+  height 100%
+
+.container
+  background #373a47
+
+.content-wrap
+  overflow-y scroll
+  -webkit-overflow-scrolling touch
+  -webkit-transition -webkit-transform 0.3s
+  transition transform 0.3s
+
+.content
+  position relative
+  background #b4bad2
+
+.menu-button
+  position fixed
+  z-index 1000
+  margin 1em
+  padding 0
+  width 2.5em
+  height 2.25em
+  border none
+  text-indent 2.5em
+  font-size 2em
+  color transparent
+  background transparent
+  right 0px
+  top 0px
+  &::before
+    position absolute
+    top 0.5em
+    right 0.5em
+    bottom 0.5em
+    left 0.5em
+    background linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%)
+    content ' '
+  &:hover
+    opacity 0.6
+
+.close-button
+  width 2.5em
+  height 2.5em
+  position absolute
+  right 2.5em
+  top 2em
+  overflow hidden
+  text-indent 1em
+  border none
+  background transparent
+  color transparent
+  &::before
+    -webkit-transform rotate(45deg)
+    transform rotate(45deg)
+  &::after
+    -webkit-transform rotate(-45deg)
+    transform rotate(-45deg)
+
+.close-button::before,
+.close-button::after
+  content ''
+  position absolute
+  width 2px
+  height 100%
+  top 0
+  left 50%
+  background #C94E50
+
+.menu-wrap
+  position absolute
+  z-index 1001
+  width 100%
+  height 320px
+  background #EFEFEF
+  color #373a47
+  padding 2em
+  -webkit-transform translate3d(-320px,-320px,0)
+  transform translate3d(-320px,-320px,0)
+  -webkit-transition -webkit-transform 0.3s
+  transition transform 0.3s
+
+.profile
+  display inline-block
+  line-height 80px
+  margin-bottom 1em
+  font-weight 700
+  font-size 1.4em
+  img
+    width 80px
+    height 80px
+    float left
+    border-radius 50%
+    margin-right 10px
+    margin-left 10px
+    background-image url(../img/Mike80.jpg)
+    background-repeat no-repeat
+
+.icon-list
+  a
+    display block
+    color #2A4D83
+    font-weight 700
+    padding 1.1em 5em
+    font-size 0.9rem
+    background rgb(223, 228, 226)
+    border 1px solid rgba(189, 186, 186, 0.2)
+    border-radius 3px
+    i
+      color #8DCBBC
+      font-size 1.5rem
+    span
+      margin-left 10px
+
+.icon-list a:hover,
+.icon-list a:focus
+  color #c94e50
+
+.show-menu
+  .menu-wrap
+    -webkit-transform translate3d(0,0,0)
+    transform translate3d(0,0,0)
+
