@@ -584,7 +584,7 @@ a {
   line-height: 80px;
   margin-bottom: 1em;
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 .profile img {
   width: 80px;
@@ -626,4 +626,23 @@ a {
   -o-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+@media only screen and (min-width: 49.37em) {
+  body {
+    background-color: #a52a2a;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  body {
+    background-color: #ff0;
+  }
+}
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 }

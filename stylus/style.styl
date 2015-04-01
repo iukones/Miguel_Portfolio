@@ -108,7 +108,7 @@ a
   line-height 80px
   margin-bottom 1em
   font-weight 700
-  font-size 1.4em
+  font-size 1.3em
   img
     width 80px
     height 80px
@@ -144,3 +144,26 @@ a
     -webkit-transform translate3d(0,0,0)
     transform translate3d(0,0,0)
 
+@media only screen and (min-width: 49.37em)
+    /* Style adjustments for viewports that meet the condition */
+
+        body
+          background-color brown
+
+
+@media only screen and (min-width:  62.5em)
+        body
+          background-color yellow
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi)
+    /* Style adjustments for high resolution devices */
+
+@media print
+    *
+        background transparent !important
+        color #000 !important /* Black prints faster: h5bp.com/s */
+        box-shadow none !important
+        text-shadow none !important
