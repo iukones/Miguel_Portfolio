@@ -475,10 +475,11 @@ a {
   box-shadow: 0 5px 1px rgba(0,0,0,0.2);
 }
 .logo {
-  background-image: url("../img/m2.png");
+  background: url("../img/m2.png") no-repeat;
+  text-indent: -99999px;
   float: left;
   width: 80px;
-  height: 170px;
+  height: 174px;
   position: absolute;
   margin: -4px 16px 10px 30px;
   -webkit-transition: transform 0.2s ease;
@@ -488,6 +489,16 @@ a {
   -o-transition: -o-transform 0.2s ease;
   -ms-transition: -ms-transform 0.2s ease;
   transition: transform 0.2s ease;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+}
+.logo a {
+  display: block;
+  height: 170px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .menu-button {
   position: fixed;
@@ -498,7 +509,7 @@ a {
   height: 2.25em;
   border: none;
   text-indent: 2.5em;
-  font-size: 2em;
+  font-size: 1.77em;
   color: transparent;
   background: transparent;
   right: 0px;
