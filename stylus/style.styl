@@ -14,6 +14,11 @@ body
   font-size 62.5%
   font-family 'Raleway', Arial, sans-serif
 
+.innerWrapper
+  max-width 100%
+  overflow hidden
+  position relative
+
 a
   color #4e4a46
   text-decoration none
@@ -58,7 +63,7 @@ a
   text-indent 2.5em
   font-size 1.77em
   color transparent
-  background transparent
+  background #fff
   right 0px
   top 0px
   &::before
@@ -126,7 +131,7 @@ a
     border-radius 50%
     margin-right 10px
     margin-left 10px
-    background-image url(../img/Mike80.jpg)
+    background url(../img/Mike80.jpg) no-repeat
 
 .icon-list
   a
@@ -153,9 +158,27 @@ a
     -webkit-transform translate3d(0,0,0)
     transform translate3d(0,0,0)
 
-@media only screen and (min-width: 49.37em)
-    /* Style adjustments for viewports that meet the condition */
+.content-top
+  margin 0
+  width 100%
 
+.content-header
+  background-color #191919
+  position relative
+
+.content-image
+  max-height 400px
+  height auto
+  margin 0
+  overflow hidden
+  opacity .8
+  img
+    height auto
+    min-height 100%
+    width 100%
+
+
+@media only screen and (min-width: 49.37em)
         body
           background-color brown
 
