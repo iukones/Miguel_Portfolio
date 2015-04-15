@@ -670,23 +670,17 @@ a {
   background: url("../img/otro.svg") no-repeat;
   text-indent: -99999px;
   float: left;
-  -webkit-background-size: 70px;
-  -moz-background-size: 70px;
-  background-size: 70px;
+  -webkit-background-size: 2em;
+  -moz-background-size: 2em;
+  background-size: 2em;
+  height: 5em;
   position: absolute;
   margin: -4px 16px 10px 30px;
-  -webkit-transition: transform 0.2s ease;
-  -moz-transition: transform 0.2s ease;
-  -webkit-transition: -webkit-transform 0.2s ease;
-  -moz-transition: -moz-transform 0.2s ease;
-  -o-transition: -o-transform 0.2s ease;
-  -ms-transition: -ms-transform 0.2s ease;
-  transition: transform 0.2s ease;
 }
 .logo a {
   display: block;
-  width: 3.5em;
-  height: 8em;
+  width: 2em;
+  height: 4em;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -697,7 +691,7 @@ a {
   margin: 2em;
   padding: 0;
   width: 2.5em;
-  height: 2.25em;
+  height: 2.4em;
   border: none;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -779,11 +773,11 @@ a {
   -ms-transform: translate3d(-320px, -320px, 0);
   transform: translate3d(-320px, -320px, 0);
   -webkit-transition: -webkit-transform 0.3s;
-  -webkit-transition: -webkit-transform 0.3s;
-  -moz-transition: -moz-transform 0.3s;
-  -o-transition: -o-transform 0.3s;
-  -ms-transition: -ms-transform 0.3s;
-  transition: transform 0.3s;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  -ms-transition: -ms-transform 0.5s;
+  transition: transform 0.5s;
 }
 .profile {
   display: inline-block;
