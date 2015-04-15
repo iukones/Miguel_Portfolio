@@ -7,12 +7,16 @@
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
+html
+  font-size 62.5%
+
 body
   font-family 'Raleway', Arial, sans-serif
   background #e1e3e4
   color #313131
   font-weight 400
-  font-size 62.5%
+  font-size 16px
+  font-size 1.6rem
 
 #wrapper
   width 100%
@@ -72,7 +76,7 @@ a
   border none
   border-radius 2px
   text-indent 2.5em
-  font-size 1.3em
+  font-size 1.3rem
   color transparent
   // background #fff
   right 0px
@@ -89,11 +93,11 @@ a
     opacity 0.6
 
 .close-button
-  width 2.5em
-  height 2.5em
+  width 2em
+  height 2em
   position absolute
-  right 2.5em
-  top 2em
+  right 2em
+  top 1.5em
   overflow hidden
   text-indent 1em
   border none
@@ -132,18 +136,20 @@ a
 
 .profile
   display inline-block
-  line-height 80px
-  margin-bottom 1em
+  // line-height 80px
+  line-height 8em
+  // margin-bottom 1em
   font-weight 700
-  font-size 1.3em
+  font-size 1.4rem
   img
     width 80px
     height 80px
     float left
     border-radius 50%
     margin-right 10px
-    margin-left 10px
+    // margin-left 10px
     background url(../img/Mike80.jpg) no-repeat
+
 
 .icon-list
   a
@@ -151,7 +157,7 @@ a
     color #2A4D83
     font-weight 700
     padding 1.1em 5em
-    font-size 0.9rem
+    font-size 1.4rem
     background rgb(223, 228, 226)
     border-bottom 1px solid rgba(189, 186, 186, 0.2)
     &:hover
@@ -160,10 +166,11 @@ a
       color #c94e50
     i
       color #8DCBBC
-      font-size 1.5rem
+      font-size 2rem
     span
-      margin-left 10px
+      margin-left .8em
       font-family 'Raleway', Arial, sans-serif
+
 
 .show-menu
   .menu-wrap
@@ -220,7 +227,7 @@ a
 
 .post-title
   //border-bottom 0 none
-  bottom .7em
+  bottom 1.5em
   color #fff
   // margin 0 auto
   max-width 800px
@@ -230,7 +237,7 @@ a
   text-rendering auto
   -webkit-font-smoothing auto
   font-family 'Lato',sans-serif
-  font-size 1.8em
+  font-size 1.8rem
   // font-weight normal
   // margin 0
   // padding .455em 0 .909em
