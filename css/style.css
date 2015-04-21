@@ -635,6 +635,7 @@ th {
 }
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 body {
   font-family: 'Raleway', Arial, sans-serif;
@@ -693,8 +694,6 @@ a {
   width: 2.5em;
   height: 2.4em;
   border: none;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
   text-indent: 2.5em;
   font-size: 1.3rem;
   color: transparent;
@@ -836,8 +835,7 @@ a {
 .content-image {
   margin: 0;
   height: auto;
-  max-height: 600px;
-  min-height: 250px;
+  max-height: 15.625em;
   opacity: 0.5;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
