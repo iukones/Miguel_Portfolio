@@ -34,6 +34,9 @@ a
   text-decoration none
   outline none
 
+img
+  max-width  100%
+
 #inner-top
   position fixed
   z-index 999
@@ -198,6 +201,11 @@ a
 //       opacity: 0;
 //       z-index: 100;
 
+/* --------------------------------
+
+Slider
+
+-------------------------------- */
 .cd-hero
   position relative
   -webkit-font-smoothing antialiased
@@ -253,6 +261,18 @@ Single slide style
   background-position center center
   background-size cover
   background-repeat no-repeat
+  &:first-of-type
+    background-color #2c343b
+  &:nth-of-type(2)
+    background-color #3d4952
+    background-image url("../img/tech-1-mobile.jpg")
+  &:nth-of-type(3)
+    background-color #586775
+    background-image url("../img/tech-2-mobile.jpg")
+
+cd-hero-slider li:nth-of-type(2)
+  background-color #3d4952
+  background-image url("../img/tech-1-mobile.jpg")
 
 // .visual
 
