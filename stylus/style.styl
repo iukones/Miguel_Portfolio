@@ -410,6 +410,109 @@ Slider navigation
   height 55px
   background-color rgba(0, 1, 1, 0.5)
 
+.cd-slider-nav nav,
+.cd-slider-nav ul,
+.cd-slider-nav li,
+.cd-slider-nav a
+  height 100%
+
+.cd-slider-nav nav
+  display inline-block
+  position relative
+
+.cd-slider-nav
+  .cd-marker
+    position absolute
+    bottom 0
+    left 0
+    width 60px
+    height 100%
+    color #d44457
+    background-color #ffffff
+    box-shadow inset 0 2px 0 currentColor
+    -webkit-transition -webkit-transform 0.2s, box-shadow 0.2s
+    -moz-transition -moz-transform 0.2s, box-shadow 0.2s
+    transition transform 0.2s, box-shadow 0.2s
+
+.cd-slider-nav
+  .cd-marker.item-2
+    -webkit-transform translateX(100%)
+    -moz-transform translateX(100%)
+    -ms-transform translateX(100%)
+    -o-transform translateX(100%)
+    transform translateX(100%)
+
+.cd-slider-nav
+  .cd-marker.item-3
+    -webkit-transform translateX(200%)
+    -moz-transform translateX(200%)
+    -ms-transform translateX(200%)
+    -o-transform translateX(200%)
+    transform translateX(200%)
+
+.cd-slider-nav
+  .cd-marker.item-4
+    -webkit-transform translateX(300%)
+    -moz-transform translateX(300%)
+    -ms-transform translateX(300%)
+    -o-transform translateX(300%)
+    transform translateX(300%)
+
+.cd-slider-nav
+  .cd-marker.item-5
+    -webkit-transform: translateX(400%);
+    -moz-transform: translateX(400%);
+    -ms-transform: translateX(400%);
+    -o-transform: translateX(400%);
+    transform: translateX(400%);
+
+.cd-slider-nav ul::after
+  clear both
+  content ""
+  display table
+
+.cd-slider-nav li.selected a
+  color #2c343b
+
+.no-touch
+  .cd-slider-nav li.selected a:hover
+    background-color transparent
+
+.cd-slider-nav a
+  display block
+  position relative
+  padding-top 35px
+  font-size 1rem
+  font-weight 700
+  color #a8b4be
+  -webkit-transition background-color 0.2s
+  -moz-transition background-color 0.2s
+  transition background-color 0.2s
+
+.cd-slider-nav a::before
+  content ""
+  position absolute
+  width 24px
+  height 24px
+  top 8px
+  left 50%
+  right auto
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: url(../img/cd-icon-navigation.svg) no-repeat 0 0;
+
+.no-touch .cd-slider-nav a:hover
+  background-color rgba(0, 1, 1, 0.5)
+
+.cd-slider-nav li:first-of-type a::before
+  background-color 0 0
+
+.cd-slider-nav li.selected:first-of-type a::before
+  background-position 0 -24px
+
 
 // .visual
 
@@ -482,6 +585,39 @@ Slider navigation
           .cd-hero-slider .cd-full-width
             .cd-hero-slider .cd-half-width
               padding-top: 150px;
+
+           .cd-hero-slider
+             .cd-bg-video-wrapper
+               display block
+
+          .cd-hero-slider
+            .cd-half-width
+              width 45%
+
+          .cd-hero-slider
+            .cd-half-width:first-of-type
+              left 5%
+
+          .cd-hero-slider
+            .cd-half-width:nth-of-type(2)
+              right 5%
+              left auto
+
+          .cd-hero-slider
+            .cd-img-container
+              display block
+
+          .cd-hero-slider h2,
+          .cd-hero-slider p
+            max-width 520px
+
+          .cd-hero-slider h2
+            font-size 2.4em
+            font-weight 300
+
+          .cd-hero-slider
+            .cd-btn
+              font-size 1.4rem
 
 @media only screen and (min-width:  62.5em)
         body
