@@ -44,7 +44,7 @@ img
   z-index 999
   top 0
   width 100%
-  height 80px
+  height 4em
   // background-color rgba(198, 202, 216, 0.2)
   // background-color rgba(17, 2, 2, 0.9)
   //background-color rgba(30, 42, 38, 0.8)
@@ -77,7 +77,7 @@ img
 .menu-button
   position fixed
   z-index 1000
-  margin 2em
+  margin 1.2em
   padding 0
   width 2.5em
   height 2.4em
@@ -289,7 +289,7 @@ Single slide style
         /* este relleno se utiliza para alinear el texto */
         padding-top 100px
         text-align center
-        /* forzar Hardware Acceleration in WebKit */
+        /* forzar Hardware Acceleration en WebKit */
         -webkit-backface-visibility hidden
         backface-visibility hidden
         -webkit-transform translateZ(0)
@@ -370,7 +370,7 @@ Single slide style
   .cd-btn
     display inline-block
     padding 1.2em 1.4em
-    margin-top 8em
+    margin-top .8em
     background-color rgba(212, 68, 87, 0.9)
     font-size 1.3rem
     font-weight 700
@@ -471,6 +471,11 @@ Slider navigation
   content ""
   display table
 
+.cd-slider-nav li
+  display inline-block
+  width 60px
+  float left
+
 .cd-slider-nav li.selected a
   color #2c343b
 
@@ -508,10 +513,50 @@ Slider navigation
   background-color rgba(0, 1, 1, 0.5)
 
 .cd-slider-nav li:first-of-type a::before
-  background-color 0 0
+  background-position 0 0
 
 .cd-slider-nav li.selected:first-of-type a::before
   background-position 0 -24px
+
+.cd-slider-nav li:nth-of-type(2) a::before
+  background-position -24px 0
+
+.cd-slider-nav li.selected:nth-of-type(2) a::before
+  background-position -24px -24px
+
+.cd-slider-nav li:nth-of-type(3) a::before
+  background-position -48px 0
+
+.cd-slider-nav li.selected:nth-of-type(3) a::before
+  background-position -48px -24px
+
+.cd-slider-nav li:nth-of-type(4) a::before
+  background-position -72px 0
+
+.cd-slider-nav li.selected:nth-of-type(4) a::before
+  background-position -72px -24px
+
+.cd-slider-nav li:nth-of-type(5) a::before
+  background-position -96px 0
+
+.cd-slider-nav li.selected:nth-of-type(5) a::before
+  background-position -96px -24px
+
+/* --------------------------------
+
+Javascript disabled
+
+-------------------------------- */
+.no-js .cd-hero-slider li
+  display none
+
+.no-js .cd-hero-slider li.selected
+  display block
+
+
+.no-js .cd-slider-nav
+  display none
+
 
 
 // .visual
