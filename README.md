@@ -1,61 +1,35 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# "Synthetica" One Page Website Template
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+"Synthetica" is a one page website template made by [Peter Finlan](http://peterfinlan.com/) exclusively for Codrops.
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+[Article on Codrops](http://tympanus.net/codrops/?p=26570)
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+[Demo](http://tympanus.net/Freebies/Synthetica/)
 
+## License
 
-## Quick start
+Use it freely but please do not republish, distribute or sell "as-is". Please credit the creator when you use this for your project. [Read more about our license.](http://tympanus.net/codrops/licensing/)
 
-Choose one of the following options:
+## Credits 
 
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
+*   [Bootstrap](http://getbootstrap.com/)
+*   [jQuery](https://jquery.com)
+*   [Modernizr](https://modernizr.com/)
+*   [Animate.css](https://daneden.github.io/animate.css/)
+*   [Stroke Gap Icons](http://graphicburger.com/stroke-gap-icons-webfont/)
+*   [Unsplash](http://unsplash.com/)
+*   [Startup Stock](http://startupstockphotos.com/)
+*   [Pexel](https://www.pexels.com/)
+*   [Retina.js](http://imulus.github.io/retinajs/)
+*   [VideoJS](http://videojs.com/)
+*   [Waypoints.js](http://imakewebthings.com/waypoints/)
 
+## Misc
 
-## Features
+Follow Pete: [Twitter](https://twitter.com/peterfinlan), [Dribbble](http://www.dribbble.com/peterfinlan)
 
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
-  normalizations and common bug fixes.
-* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* IE-specific classes for easier cross-browser control.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
-  IE6/7.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/pages/Codrops/159107397912), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/)
+
+[© Codrops 2016](http://www.codrops.com)
 
 
-## Documentation
-
-Take a look at the [documentation table of contents](doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation you
-want to write about your project.
-
-
-## Contributing
-
-Anyone and everyone is welcome to [contribute](CONTRIBUTING.md). Hundreds of
-developers have helped make the HTML5 Boilerplate what it is today.
