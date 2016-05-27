@@ -298,10 +298,9 @@ Main Nav
 }
 .secondary-nav-wrapper
 {
+    //border-bottom: solid 5px $teal;
     display: inline-block;
-
     padding: 35px 30px;
-
     background-color: $slate;
     ul.secondary-nav
     {
@@ -2593,7 +2592,7 @@ Responsive Media Queries
 {
     .header-nav-wrapper
     {
-        border-bottom: solid 5px #7ae2de;
+        border-bottom: solid 5px $teal;
         background-color: $slate;
     }
     .header-nav-wrapper .logo

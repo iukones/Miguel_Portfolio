@@ -10,12 +10,12 @@ Button styles
     letter-spacing: 1px;
     text-transform: uppercase;
     color: $white;
-    background-color: $teal;
+    background-color: $yell;
     padding: 20px;
     text-decoration: none;
     line-height: 1;
     &:hover {
-        background-color: $dark-teal;
+        background-color: $yell-h;
     }
 }
 .btn.secondary {
