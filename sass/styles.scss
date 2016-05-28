@@ -209,8 +209,8 @@ Main Nav
 
         text-align: center;
 
-        border-bottom: solid 5px $teal;
-        background-color: $slate;
+        // border-bottom: solid 5px $teal;
+        // background-color: $slate;
     }
     .primary-nav-wrapper
     {
@@ -298,7 +298,7 @@ Main Nav
 }
 .secondary-nav-wrapper
 {
-    //border-bottom: solid 5px $teal;
+    border-bottom: solid 5px $teal;
     display: inline-block;
     padding: 35px 30px;
     background-color: $slate;
