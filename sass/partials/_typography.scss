@@ -65,7 +65,7 @@ h4
 {
     font-size: $font-size-h4;
     font-weight: $bold;
-
+    color: $teal;
     margin: 7px 0 65px 60px;
 
     text-transform: uppercase;
@@ -79,7 +79,7 @@ h4
 
         content: '';
 
-        background-color: $teal;
+        background-color: $yell;
     }
 }
 h5
