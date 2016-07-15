@@ -124,6 +124,7 @@ $(document).ready(function() {
         $('.nav-toggle').toggleClass('active');
         $('.navicon').toggleClass('fixed');
         $('.primary-nav-wrapper').toggleClass('open');
+        $();
     });
 
     /***************** Waypoints ******************/
@@ -177,3 +178,5 @@ $(document).ready(function() {
         });
     }
 });
+
+
