@@ -2252,16 +2252,6 @@ Waypoints
   visibility: visible;
 }
 
-/* line 205, ../sass/styles.scss */
-.os-animation {
-  opacity: 0;
-}
-
-/* line 209, ../sass/styles.scss */
-.os-animation.animated {
-  opacity: 1;
-}
-
 /* ==========================================================================
 Main Nav
 ========================================================================== */
