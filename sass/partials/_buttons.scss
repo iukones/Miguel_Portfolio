@@ -23,20 +23,20 @@ Button styles
     font-size: $font-size-button;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: $teal;
-    border: 2px solid $teal;
+    color: $yell;
+    border: 2px solid $yell;
     padding: 15px 20px;
     text-decoration: none;
     line-height: 1;
     &:hover {
         color: $white;
-        background-color: $dark-teal;
-        border-color: $dark-teal;
+        background-color: $yell-h;
+        border-color: $yell-h;
     }
     &:focus {
         color: $white;
-        background-color: $teal;
-        border-color: $teal;
+        background-color: $yell;
+        border-color: $yell;
     }
 }
 .btn.secondary-white {

@@ -170,6 +170,8 @@ $(document).ready(function() {
         offset: '75%'
     });
 
+
+
     /***************** Overlay touch/hover events ******************/
 
     if (Modernizr.touch) {
