@@ -4663,26 +4663,26 @@ Responsive Media Queries
 
   /* line 2629, ../sass/styles.scss */
   .header-nav-wrapper .logo {
-    width: 250px;
+    display: none;
   }
 
-  /* line 2634, ../sass/styles.scss */
+  /* line 2635, ../sass/styles.scss */
   .navicon {
     padding: 52px 35px;
     background-color: transparent;
   }
 
-  /* line 2640, ../sass/styles.scss */
+  /* line 2641, ../sass/styles.scss */
   .header-nav-wrapper .logo {
     border-bottom: none;
   }
 
-  /* line 2644, ../sass/styles.scss */
+  /* line 2645, ../sass/styles.scss */
   .sort h5 {
     display: block;
   }
 
-  /* line 2648, ../sass/styles.scss */
+  /* line 2649, ../sass/styles.scss */
   .latest-articles select#inputArticle-Sort {
     margin: 20px 0;
   }
